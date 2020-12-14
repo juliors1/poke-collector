@@ -15,7 +15,7 @@
       <li class="nav-item">
         <a class="nav-link" id="friends-tab" data-toggle="tab" href="#friends" role="tab" aria-controls="friends" aria-selected="false">Friends</a>
       </li>
-      <!-- This is the info for the 'watchlist' tab -->
+      <!-- This is the info for the 'pokemon' tab -->
       <li class="nav-item">
         <a class="nav-link" id="pokemon-tab" data-toggle="tab" href="#pokemonTeam" role="tab" aria-controls="pokemonTeam" aria-selected="false">Pokemon</a>
       </li>
@@ -24,7 +24,6 @@
       <div class="tab-pane fade show active" id="profileinfo" role="tabpanel" aria-labelledby="profileinfo-tab">
         <div class="card-body">
           <h5 class="card-title">Name: <%= user.name %></h5>
-          <p class="card-text">Alias: <%= user.alias %></p>
           <p class="card-text">Email: <%= user.email %></p>
           <p class="card-text">Bio: <%= user.bio %></p>
         </div>
@@ -62,10 +61,10 @@
         <!-- This is where we'll use a forEach to display friends -->
         </div>
       </div>
-      <!-- This is the card for the 'watchlist' tab -->
-      <div class="tab-pane fade show" id="watchlist" role="tabpanel" aria-labelledby="watchlist-tab">
+      <!-- This is the card for the 'pokemon' tab -->
+      <div class="tab-pane fade show" id="pokemonTeam" role="tabpanel" aria-labelledby="pokemon-tab">
         <div class="card-body">
-        <!-- This is where we'll use a forEach to display watchlist items -->
+        <!-- This is where we'll use a forEach to display pokemon team -->
         </div>
       </div>
     </div>
