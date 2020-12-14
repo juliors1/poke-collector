@@ -1,8 +1,8 @@
 <%- include('../partials/header') %>
-
+<br>
 <h3> Trainer Profile</h3>
 
-<div class="card" style="width: 42rem;">
+<div class="card" style="width: 60rem;">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="profileinfo-tab" data-toggle="tab" href="#profileinfo" role="tab" aria-controls="profileinfo" aria-selected="true">My Info</a>
@@ -24,6 +24,8 @@
       <div class="tab-pane fade show active" id="profileinfo" role="tabpanel" aria-labelledby="profileinfo-tab">
         <div class="card-body">
           <h5 class="card-title">Name: <%= user.name %></h5>
+          <br>
+          <p class="card-text">Nickname: <%= user.alias %></p>
           <p class="card-text">Email: <%= user.email %></p>
           <p class="card-text">Bio: <%= user.bio %></p>
         </div>
