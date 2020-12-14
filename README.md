@@ -1,31 +1,46 @@
 # PokeCollector
 
- ### Pseudo code :
-1.  NPX Install The express-generator
+ ### Pseudo Code:
+1.  Create the express app
 2.  Implement authentication
-3.  implement authorization
-4.  reference User to friends in the userSchema to implement add friends feature
-5.  referenece User to favoritedBy in pokemonSchema to see add a favoritedBy feature to your pokemon team
-6.  embed teamSchema into UserSchema
-7.  embed commentSchema into pokemonSchema
-8.  stub up database, server, routes, models, controllers, views
-9.  write the model for users, write the route , write controller functions, and write the view
-10. write the pokemon model, write the route, write controller functions, and write the view
-11. My profile view, showing name, bio, email, and pokemon team
-12. Trainer List view, showing users pokemon profile and team
-13. pokedex view to show all pokemons you can search for
-14. Add API call
-15. add the functions to add, remove, index, and search to pokemon controllers
-16. add the functions to show, update, and index to users
-17. add the review feature to trainer's profile where you can add a comment and rate 1 - 5
-18. heroku deployment
-19. provide nav links in header partials
-20. add a search input to search for a pokemon using the pokeAPI
-21. Add images
-22. add sound effect when click the search button
-23. add sound effect navigating through nav
-24. add sound effect logging in
-25. add sound effect logging out
+3.  Implement authorization
+4.  Set up database, server, routes, models, controllers, views
+5.  Index view for users
+6.  'Trainer profile' view for users
+    - Determine the method verb & route
+    - Write the UI
+    - Write the route
+    - Write the controller function
+    - Write the view
+7. Update functionality for 'Trainer profile' info
+    - Determine the method verb & route
+    - Write the UI
+    - Write the route
+    - Write the controller function
+    - Write the view
+8.  'User show' view
+9.  Embed teamSchema into UserSchema
+10. Add friend functionality
+11. Add Pokemon view
+12. Write the pokemon model, write the route, write controller functions
+13. Add the functions to add, remove, index, and search to pokemon controllers
+14. API call implementation
+15. Pokemon info view
+16. 'Reviews' functionality
+17. Add the review feature to trainer's team where you can add a comment and rate 1 - 5
+18. Embed reviewSchema into pokemonSchema
+19. Reference User to friends in the userSchema to implement add friends feature
+20. Write the model for users, write the route , write controller functions, and write the view
+21. Trainer List view, showing users pokemon profile and team
+22. Pokedex view to show all pokemons you can search for
+23. Provide nav links in header partials
+24. Add a search input to search for a pokemon
+25. Add images
+26. Add sound effect when click the search button
+27. Add sound effect navigating through nav
+28. Add sound effect logging in
+29. Add sound effect logging out
+30. STYLE STYLE STYLE!!!
 
 
 
