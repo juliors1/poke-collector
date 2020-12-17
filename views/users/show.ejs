@@ -1,0 +1,55 @@
+<%- include('../partials/header') %>
+
+<h3><%= title %></h3>
+
+<div class="card" style="width: 18rem;">
+  <!-- If our user doesn't have an avatar image, a trainer logo img will replace the avatar image -->
+  <img id="avatarPhoto" style="height: 18rem;" class="card-img-top" src="<%= userInfo.avatar ? userInfo.avatar : 'https://cdn.bulbagarden.net/upload/thumb/d/d3/Lets_Go_Pikachu_Eevee_Red.png/250px-Lets_Go_Pikachu_Eevee_Red.png'  %>" alt="trainer logo">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"><%= userInfo.name %></h5>
+    <!--user join date-->
+    <p class="card-text">Joined: <%= userInfo.createdAt.toLocaleString().split(',')[0] %></p>
+    <p class="card-text">Email: <a href="mailto:<%= userInfo.email %>"><%= userInfo.email %></a></p>
+    <p class="card-text">Bio: <%= userInfo.bio %></p>
+    <p class="card-text">Pokemon Team:</p>
+    <!-- This is where we'll iterate over the pokemon team with a forEach -->
+    <% userInfo.team.forEach(p => { %>
+      <p class="card-text">Pokemon Team: <% userInfo.team.forEach(p => { %>
+        <p><%= p.name.toUpperCase() %>
+          <img src="<%= p.img %>" alt="sprite">
+        </p>
+    <% }) %><br>
+    <!-- This is where we'll render buttons to add/remove a user as a friend -->
+    <% if (!userInfo._id.equals(user._id) && !user.friends.includes(userInfo._id)) { %>
+      <a href="/users/<%= userInfo._id %>/friend" class="btn btn-primary">Add Friend</a>
+    <% } %>
+    <% if (!userInfo._id.equals(user._id) && user.friends.includes(userInfo._id)) { %>
+      <a href="/users/<%= userInfo._id %>/unfriend" class="btn btn-primary">Remove Friend</a>
+    <% } %>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('../partials/footer') %>
