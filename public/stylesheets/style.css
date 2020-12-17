@@ -19,7 +19,7 @@ html {
 }
 body {
   font-family: 'Press Start 2P', cursive;
-  background-color: gray;
+  background-color: #A8A6AA;
   margin: 0;
   padding: 0;
 }
@@ -36,6 +36,15 @@ nav {
    width:18rem;
 }
 
+.pokedex {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
 .pokedex-title{
-  height:125px;
+  height:150px;
+}
+
+.pokedex-img{
+  height:150px;
 }
