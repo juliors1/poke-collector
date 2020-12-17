@@ -10,8 +10,8 @@ module.exports = {
 function pokedex(req, res) {
   res.render("pokemon/pokedex", {
     title: "Pokedex",
-    pokemon: null,
-    user: req.user ? req.user : null,
+    pokemon: [],
+    user: req.user
   });
 }
 
@@ -20,7 +20,7 @@ function search(req,res){
   .then((response)=>{
     res.render('pokemon/pokedex',{
       pokemon: response.data,
-      user: req.user ? req.user : null,
+      user: req.user
     })
   })
 }
