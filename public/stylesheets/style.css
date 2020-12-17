@@ -31,4 +31,8 @@ nav {
   border-radius: 50%;
   justify-content: flex-end;
 }
+.card-img-top{
+   height:18rem;
+   width:18rem;
+}
 
