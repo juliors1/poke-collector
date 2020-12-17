@@ -5,7 +5,7 @@
   <a href="/users/<%= u._id %>">
     <div class="card">
       <div class="card-body">
-        <img height="50" id="avatarPhoto" src="<%= u.avatar ? u.avatar : 'https://cdn.bulbagarden.net/upload/thumb/d/d3/Lets_Go_Pikachu_Eevee_Red.png/250px-Lets_Go_Pikachu_Eevee_Red.png' %>" alt="trainer logo">
+        <img height="50" id="avatarPhoto" src="<%= u.avatar ? u.avatar : 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/866438ce-c99f-4c83-8110-4f6c907f2c68/d9qxpn9-8096a0d6-6576-45cb-a1b0-1ae2fc3b787d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODY2NDM4Y2UtYzk5Zi00YzgzLTgxMTAtNGY2YzkwN2YyYzY4XC9kOXF4cG45LTgwOTZhMGQ2LTY1NzYtNDVjYi1hMWIwLTFhZTJmYzNiNzg3ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.gUe-9VpsADc708NZfNlDDffeL_G7LFrHtFp1QZa3IzI' %>" alt="trainer">
         <%= u.name %></a> - Joined on <%= u.createdAt.toLocaleString().split(',')[0] %>
       </div>
     </div><br>

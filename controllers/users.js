@@ -29,7 +29,7 @@ function update(req, res) {
 function show(req,res) {
   User.findById(req.params.id)
   .then((userInfo)=>{
-    res.render("user/show", {
+    res.render("users/show", {
       title:" Trainer Details",
       userInfo,
       user:req.user
