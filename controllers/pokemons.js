@@ -20,7 +20,7 @@ function search(req,res){
   .then((response)=>{
     res.render('pokemon/pokedex',{
       pokemon: response.data,
-      user: req.user
+      user: req.user 
     })
   })
 }
