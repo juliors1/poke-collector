@@ -48,3 +48,19 @@ nav {
 .pokedex-img{
   height:150px;
 }
+.poke-search{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  font-size:21px;
+  padding:5px;
+}
+
+.random-btn{
+  margin-right:8px;
+  font-size:21px;
+}
+.search-btn{
+  font-size:21px
+
+}
