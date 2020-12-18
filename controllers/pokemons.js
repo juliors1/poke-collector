@@ -5,8 +5,7 @@ module.exports = {
   pokedex,
   search,
   add,
-
-
+  delete: deletePokemon,
 };
 // render pokedex page
 function pokedex(req, res) {
@@ -32,4 +31,15 @@ req.user.save()
 .then(()=>{
   res.redirect('/users/profile')
 })
+}
+// delete a pokemon from your team
+function deletePokemon(req,res){
+  let idx = req.user.team.findIndex((p)=>{
+    return p.id === parseInt(req.params.id)
+  })
+  req.user.team.splice(idx, 1)
+  req.user.save()
+  .then(()=>{
+    res.redirect('/users/profile')
+  })
 }
