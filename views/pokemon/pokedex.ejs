@@ -13,8 +13,8 @@
 
 <% if(pokemon.name) { %>
   <div class=poke-img>
-    <img src="<%= pokemon.sprites.front_default %>" height= 250rem alt="pokemon-default-img">
-    <img src="<%= pokemon.sprites.front_shiny %>" alt="pokemon-shiny-img">
+    <img src="<%= pokemon.sprites.front_default %>" height= 150rem alt="pokemon-default-img">
+    <img src="<%= pokemon.sprites.front_shiny %>" height= 150rem alt="pokemon-shiny-img">
   </div>
   <div class="poke-info">
     <h3><%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)%></h3>
