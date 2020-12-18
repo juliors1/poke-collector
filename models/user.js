@@ -17,7 +17,7 @@ const userSchema = new Schema(
     googleId: String,
     bio: String,
     friends:[{type:Schema.Types.ObjectId, ref: "User"}],
-    team: [teamSchema]
+    team: [teamSchema],
   },
   {
     timestamps: true,
