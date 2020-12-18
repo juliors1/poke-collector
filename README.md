@@ -22,13 +22,13 @@ This app has a my profile page where you can update your avatar image, nickname,
 
 ## Getting Started:
 
-<a href="https://poke-collector-jrs.herokuapp.com/" target="_blank">PokeCollecter</a> - This will prompt you to the deployed web app where you can go get started on building your team
+<a href="https://poke-collector-jrs.herokuapp.com/" target="_blank">PokeCollector</a> - This will prompt you to the deployed web app where you can go get started on building your team
 
 <a href="https://trello.com/b/8PmKGTfC/pokecollector">Trello</a> - This link will direct you to my planning in moving foward with my web app.
 
 ## Instructions:
 
-First login to your google account to have access to the web app.You can click on the pokedex nav and search any pokemon you desire on your team. If you want to add friends go to the trainer list and go check out any trainer profile. Now go on, have fun and Build Your Team!
+First login to your google account to have access to the web app. You can click on the pokedex nav and search any pokemon you desire on your team. If you want to add friends go to the trainer list and go check out any trainer profile. Now go on, have fun and Build Your Team!
 
 
 ## Technologies Used:
@@ -43,7 +43,7 @@ First login to your google account to have access to the web app.You can click o
 - MongoDB
 - Heroku Deployment
 - EJS (Embedded Javascript)
-- Google OAuth
+- Google OAuth 2.0
 
 ## Next Steps:
 
@@ -58,3 +58,7 @@ First login to your google account to have access to the web app.You can click o
 ## Attributions:
 
 #### While the below disclaimers are technically required by their license-holders I would like to also sincerely thank all the creators whose work makes this site look great. I do not own or am associated with the resources used in any way, Thank you!
+
+- <a href="https://pokeapi.co/docs/v2">PokeAPI</a>  The API I used is called the PokeAPI.
+
+- <a href="https://fonts.google.com/specimen/Press+Start+2P#license">Google Fonts</a> The font I used was Press+Start+2P
