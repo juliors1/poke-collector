@@ -2,17 +2,11 @@
 
 ## Wireframe Images:
 
-### Desktop Login Screen:
-<img src="https://i.imgur.com/XIkCVFn.png" alt ="desktop-login-screen" height = 150px/>
+### Desktop/Mobile Login Screen:
+<img src="https://i.imgur.com/XIkCVFn.png" alt ="desktop-login-screen" height = 150px/> | <img src="https://i.imgur.com/9cwmwEN.png" alt ="mobile-login-screen" height = 150px/>
 
-### Mobile Login Screen:
-<img src="https://i.imgur.com/9cwmwEN.png" alt ="mobile-login-screen" height = 150px/>
-
-### Desktop Pokedex Screen:
-<img src="https://i.imgur.com/yyOBdju.png" alt ="desktop-pokedex-screen" height = 150px/>
-
-### Mobile Pokedex Screen:
-<img src="https://i.imgur.com/pxUnrkM.png" alt ="desktop-pokedex-screen" height = 150px/>
+### Desktop/Mobile Pokedex Screen:
+<img src="https://i.imgur.com/yyOBdju.png" alt ="desktop-pokedex-screen" height = 150px/> |<img src="https://i.imgur.com/pxUnrkM.png" alt ="desktop-pokedex-screen" height = 150px/>
 
 
 ## Description:
