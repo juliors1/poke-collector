@@ -30,7 +30,33 @@
         <button class="btn btn-danger"><%= user.team.some(p => {return p.id === pokemon.id}) ? "Remove Pokemon" : "Add Pokemon" %></button>
       </form>
   </div>
-
+  <div class='poke-ability'>
+    <h5>Abilities: <% pokemon.abilities.forEach(p => { %>
+    </h5>
+    <ul>
+      <%= p.ability.name.charAt(0).toUpperCase() + p.ability.name.slice(1) %>
+    </ul>
+    <% }) %>
+  </div>
+</div>
+<div class='measurements'>
+  <p>Height: <%= pokemon.height / 10; %> m</p>
+  <p>Weight: <%= pokemon.weight / 10; %> kg</p>
+</div>
+<div class="poke-stats">
+  <h2>HP: </h2>
+  <h3><%= pokemon.stats[0].base_stat %></h3>
+  <h2>Attack: </h2>
+  <h3><%= pokemon.stats[1].base_stat %></h3>
+  <h2>Defense: </h2>
+  <h3><%= pokemon.stats[2].base_stat %></h3>
+  <h2>Special Attack: </h2>
+  <h3><%= pokemon.stats[3].base_stat %></h3>
+  <h2>Special Defense: </h2>
+  <h3><%= pokemon.stats[4].base_stat %></h3>
+  <h2>Speed: </h2>
+  <h3><%= pokemon.stats[5].base_stat %></h3>
+</div>
   <% }%>
 
 </div>
