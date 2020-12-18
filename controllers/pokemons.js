@@ -27,5 +27,9 @@ function search(req,res){
 }
 // add a pokemon to your team
 function add(req,res) {
-
+req.user.team.push(req.body)
+req.user.save()
+.then(()=>{
+  res.redirect('/users/profile')
+})
 }
