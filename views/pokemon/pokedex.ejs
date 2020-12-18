@@ -9,13 +9,12 @@
   <button type="submit" class="btn btn-danger search-btn">Search</button>
 </form>
 
-<div class="pokemon-content-container">
-
 <% if(pokemon.name) { %>
-  <div class=poke-img>
-    <img src="<%= pokemon.sprites.front_default %>" height= 150rem alt="pokemon-default-img">
-    <img src="<%= pokemon.sprites.front_shiny %>" height= 150rem alt="pokemon-shiny-img">
-  </div>
+<div class=poke-img>
+  <img src="<%= pokemon.sprites.front_default %>" height= 150rem alt="pokemon-default-img">
+  <img src="<%= pokemon.sprites.front_shiny %>" height= 150rem alt="pokemon-shiny-img">
+</div>
+<div class="poke-info">
   <div class="add-delete">
     <h3><%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)%></h3>
     <h4>ID: <%= pokemon.id %></h4>
@@ -30,6 +29,12 @@
         <button class="btn btn-danger"><%= user.team.some(p => {return p.id === pokemon.id}) ? "Remove Pokemon" : "Add Pokemon" %></button>
       </form>
   </div>
+  <div class='poke-category'>
+    <div class='poke-type'>
+      <h5>Type: </h5><% pokemon.types.forEach(p => { %>
+      <ul> <%= p.type.name.charAt(0).toUpperCase() + p.type.name.slice(1) %> </ul>
+      <% }) %>
+    </div>
   <div class='poke-ability'>
     <h5>Abilities: <% pokemon.abilities.forEach(p => { %>
     </h5>
@@ -38,12 +43,12 @@
     </ul>
     <% }) %>
   </div>
-</div>
-<div class='measurements'>
+  </div>
+  <div class='measurements'>
   <p>Height: <%= pokemon.height / 10; %> m</p>
   <p>Weight: <%= pokemon.weight / 10; %> kg</p>
-</div>
-<div class="poke-stats">
+  </div>
+  <div class="poke-stats">
   <h2>HP: </h2>
   <h3><%= pokemon.stats[0].base_stat %></h3>
   <h2>Attack: </h2>
@@ -56,10 +61,9 @@
   <h3><%= pokemon.stats[4].base_stat %></h3>
   <h2>Speed: </h2>
   <h3><%= pokemon.stats[5].base_stat %></h3>
+  </div>
 </div>
-  <% }%>
-
-</div>
+ <% }%>
 
 
 

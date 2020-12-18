@@ -80,3 +80,9 @@ nav {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.poke-category {
+  display: flex;
+  justify-content: space-around;
+}
+
