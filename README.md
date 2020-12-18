@@ -1,5 +1,13 @@
 # PokeCollector
 
+### Wireframe Image:
+<img src="https://i.imgur.com/XIkCVFn.png" alt ="desktop-login-screen" height = 150px/>
+
+<img src="https://i.imgur.com/9cwmwEN.png" alt ="mobile-login-screen" height = 150px/>
+<br>
+<img src="https://i.imgur.com/yyOBdju.png" alt ="desktop-pokedex-screen" height = 150px/>
+<img src="https://i.imgur.com/pxUnrkM.png" alt="mobile-pokdex-screen"height = 150px/>
+
  ### Pseudo Code:
 1.  Create the express app
 2.  Implement authentication
