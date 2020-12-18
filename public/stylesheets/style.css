@@ -35,7 +35,14 @@ nav {
    height:18rem;
    width:18rem;
 }
-
+.nav-link,
+.nav-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: .4rem 1.5rem;
+}
 .pokedex {
   display: flex;
   margin-top: 50px;
@@ -52,7 +59,8 @@ nav {
   display: flex;
   margin-top: 2rem;
   justify-content: center;
-  font-size:21px;
+  font-size:20px;
+  height:60px;
   padding:5px;
 }
 
@@ -64,3 +72,4 @@ nav {
   font-size:21px
 
 }
+

@@ -31,6 +31,14 @@ nav {
   background-color: white;
   font-size:1.5rem;
 }
+.nav-link,
+.nav-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: .4rem 1.5rem;
+}
 #avatarPhoto {
   border-radius: 50%;
   justify-content: flex-end;
