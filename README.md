@@ -1,56 +1,56 @@
 # PokeCollector
 
-### Wireframe Image:
+## Wireframe Images:
+
+### Desktop Login Screen:
 <img src="https://i.imgur.com/XIkCVFn.png" alt ="desktop-login-screen" height = 150px/>
 
+### Mobile Login Screen:
 <img src="https://i.imgur.com/9cwmwEN.png" alt ="mobile-login-screen" height = 150px/>
-<br>
+
+### Desktop Pokedex Screen:
 <img src="https://i.imgur.com/yyOBdju.png" alt ="desktop-pokedex-screen" height = 150px/>
-<img src="https://i.imgur.com/pxUnrkM.png" alt="mobile-pokdex-screen"height = 150px/>
 
- ### Pseudo Code:
-1.  Create the express app
-2.  Implement authentication
-3.  Implement authorization
-4.  Set up database, server, routes, models, controllers, views
-5.  Index view for users
-6.  'Trainer profile' view for users
-    - Determine the method verb & route
-    - Write the UI
-    - Write the route
-    - Write the controller function
-    - Write the view
-7. Update functionality for 'Trainer profile' info
-    - Determine the method verb & route
-    - Write the UI
-    - Write the route
-    - Write the controller function
-    - Write the view
-8.  'User show' view
-9.  Embed teamSchema into UserSchema
-10. Add friend functionality
-11. Add Pokemon view
-12. Write the pokemon model, write the route, write controller functions
-13. Add the functions to add, remove, index, and search to pokemon controllers
-14. API call implementation
-15. Pokemon info view
-16. 'Reviews' functionality
-17. Add the review feature to trainer's team where you can add a comment and rate 1 - 5
-18. Embed reviewSchema into pokemonSchema
-19. Reference User to friends in the userSchema to implement add friends feature
-20. Write the model for users, write the route , write controller functions, and write the view
-21. Trainer List view, showing users pokemon profile and team
-22. Pokedex view to show all pokemons you can search for
-23. Provide nav links in header partials
-24. Add a search input to search for a pokemon
-25. Add images
-26. Add sound effect when click the search button
-27. Add sound effect navigating through nav
-28. Add sound effect logging in
-29. Add sound effect logging out
-30. STYLE STYLE STYLE!!!
+### Mobile Pokedex Screen:
+<img src="https://i.imgur.com/pxUnrkM.png" alt ="desktop-pokedex-screen" height = 150px/>
+
+
+## Description:
+
+
+## Getting Started:
+
+<a href="https://poke-collector-jrs.herokuapp.com/" target="_blank">PokeCollecter</a> - This will prompt you to the deployed web app where you can go get started on building your team
+
+<a href="https://trello.com/b/8PmKGTfC/pokecollector">Trello</a> - This link will direct you to my planning in moving foward with my web app.
+
+## Instructions:
 
 
 
 
+## Technologies Used:
+- HTML
+- CSS
+- JavaScript
+- BootStrap 4.5
+- Node.js
+- Express.js
+- Mongoose
+- MongoDB
+- Heroku Deployment
+- EJS (Embedded Javascript)
 
+## Next Steps:
+
+- [ ] Cap pokemon team on 6
+- [ ] Responsive Design
+- [ ] Sound Effects
+- [ ] Review Trainer's Pokemon
+- [ ] Randomize Pokemon Button
+- [ ] Catch error when mispelling pokemon name
+
+
+## Attributions:
+
+#### While the below disclaimers are technically required by their license-holders I would like to also sincerely thank all the creators whose work makes this site look great. I do not own or am associated with the resources used in any way, Thank you!
