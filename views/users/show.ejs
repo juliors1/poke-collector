@@ -1,8 +1,9 @@
 <%- include('../partials/header') %>
 <br>
+<h2> Trainer Profile</h2>
 <div class="card" style="width: 40rem;">
   <!-- If our user doesn't have an avatar image, a trainer logo img will replace the avatar image -->
-  <img id="avatarPhoto"  class="card-img-top" src="<%= userInfo.avatar ? userInfo.avatar : 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/866438ce-c99f-4c83-8110-4f6c907f2c68/d9qxpn9-8096a0d6-6576-45cb-a1b0-1ae2fc3b787d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODY2NDM4Y2UtYzk5Zi00YzgzLTgxMTAtNGY2YzkwN2YyYzY4XC9kOXF4cG45LTgwOTZhMGQ2LTY1NzYtNDVjYi1hMWIwLTFhZTJmYzNiNzg3ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.gUe-9VpsADc708NZfNlDDffeL_G7LFrHtFp1QZa3IzI' %>" alt="trainer logo">
+  <img id="avatarPhoto"  class="card-img-top" src="<%= userInfo.avatar ? userInfo.avatar : 'https://      images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/866438ce-c99f-4c83-8110-4f6c907f2c68/d9qxpn9-8096a0d6-6576-45cb-a1b0-1ae2fc3b787d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODY2NDM4Y2UtYzk5Zi00YzgzLTgxMTAtNGY2YzkwN2YyYzY4XC9kOXF4cG45LTgwOTZhMGQ2LTY1NzYtNDVjYi1hMWIwLTFhZTJmYzNiNzg3ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.gUe-9VpsADc708NZfNlDDffeL_G7LFrHtFp1QZa3IzI' %>" alt="trainer logo">
   <div class="card-header">
   </div>
   <div class="card-body">
@@ -11,12 +12,12 @@
     <p class="card-text">Joined: <%= userInfo.createdAt.toLocaleString().split(',')[0] %></p>
     <p class="card-text">Email: <a href="mailto:<%= userInfo.email %>"><%= userInfo.email %></a></p>
     <p class="card-text">Bio: <%= userInfo.bio %></p>
-    <p class="card-text">Pokemon Team:</p>
     <!-- This is where we'll iterate over the pokemon team with a forEach -->
     <p class="card-text">Pokemon Team: <% userInfo.team.forEach(p => { %>
       <p><%= p.name.toUpperCase() %>
-        <img src="<%= p.img %>" alt="sprite">
+        <img src="<%= p.img %>" alt="poke-image">
       </p>
+      <% }) %>
     <!-- This is where we'll render buttons to add/remove a user as a friend -->
     <% if (!userInfo._id.equals(user._id) && !user.friends.includes(userInfo._id)) { %>
       <a href="/users/<%= userInfo._id %>/friend" class="btn btn-warning">Add Friend</a>
@@ -24,7 +25,6 @@
     <% if (!userInfo._id.equals(user._id) && user.friends.includes(userInfo._id)) { %>
       <a href="/users/<%= userInfo._id %>/unfriend" class="btn btn-warning">Remove Friend</a>
     <% } %>
-  </div>
 </div>
 
 <%- include('../partials/footer') %>
