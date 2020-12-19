@@ -9,7 +9,7 @@ router.get(
 router.get(
   "/google/oauth2callback",
   passport.authenticate("google", {
-    successRedirect: "/",
+    successRedirect: "/pokemon/pokedex",
     failureRedirect: "/auth/google",
   })
 );

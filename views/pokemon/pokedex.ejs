@@ -4,11 +4,12 @@
 <img class="pokedex-img" src="/images/pokedex-img.png" alt="Pokedex image">
 </div>
 <form action="/pokemon/search" method="POST" class="poke-search">
-  <button type="submit" class="btn btn-light random-btn">Random</button>
   <input type="text" name="query" required="true" class="input-text"placeholder="Enter Pokemon Name" id="input-search">
   <button type="submit" class="btn btn-danger search-btn">Search</button>
 </form>
-
+<form action="/pokemon/randomPokemon" method="POST" class="poke-search">
+  <button type="submit" class="btn btn-light random-btn">Random</button>
+</form>
 <% if(pokemon.name) { %>
 <div class=poke-img>
   <img src="<%= pokemon.sprites.front_default %>" height= 150rem alt="pokemon-default-img">

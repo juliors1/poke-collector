@@ -4,6 +4,7 @@ const axios = require("axios");
 module.exports = {
   pokedex,
   search,
+  randomPokemon,
   add,
   delete: deletePokemon,
 };
@@ -24,6 +25,18 @@ function search(req,res){
     })
   })
 }
+// Random pokemon call
+function randomPokemon(req,res){
+  const y = Math.floor(Math.random() * 152) + 1
+    axios.get(`https://pokeapi.co/api/v2/pokemon/${y}`)
+    .then((response)=>{
+      console.log(response.data)
+      res.render('pokemon/pokedex',{
+        pokemon: response.data,
+        user: req.user
+      })
+    })
+  }
 // add a pokemon to your team
 function add(req,res) {
 req.user.team.push(req.body)

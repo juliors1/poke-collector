@@ -39,7 +39,7 @@ function show(req,res) {
       res.render("users/show", {
         pokemon,
         userInfo,
-        user:req.user
+        user:req.user,
     })
     })
   })

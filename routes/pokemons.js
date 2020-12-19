@@ -3,6 +3,7 @@ const pokemonCtrl = require("../controllers/pokemons");
 
 router.get('/pokedex',isLoggedIn, pokemonCtrl.pokedex)
 router.post('/search', isLoggedIn, pokemonCtrl.search);
+router.post('/randomPokemon', isLoggedIn, pokemonCtrl.randomPokemon)
 router.post('/:id/team', isLoggedIn, pokemonCtrl.add)
 router.delete('/:id/team',isLoggedIn,pokemonCtrl.delete)
 
