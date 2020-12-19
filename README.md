@@ -41,12 +41,13 @@ First login to your google account to have access to the web app. You can click 
 
 ## Next Steps:
 
-- [ ] Cap pokemon team on 6
 - [ ] Responsive Design
-- [ ] Sound Effects
-- [ ] Review Trainer's Pokemon
-- [ ] Randomize Pokemon Button
 - [ ] Catch error when mispelling pokemon name
+- [x] Random pokemon Button
+- [x] Randomize Pokemon Button
+- [ ] Sound Effects
+- [ ] Cap pokemon team on 6
+- [ ] Review Trainer's Pokemon
 
 
 ## Attributions:
@@ -56,5 +57,5 @@ First login to your google account to have access to the web app. You can click 
 - <a href="https://pokeapi.co/docs/v2">PokeAPI</a>  The API I used is called the PokeAPI.
 
 - <a href="https://fonts.google.com/specimen/Press+Start+2P#license">Google Fonts</a> The font I used was Press+Start+2P
-  
+
 - Google Images
