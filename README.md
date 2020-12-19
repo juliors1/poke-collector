@@ -56,3 +56,5 @@ First login to your google account to have access to the web app. You can click 
 - <a href="https://pokeapi.co/docs/v2">PokeAPI</a>  The API I used is called the PokeAPI.
 
 - <a href="https://fonts.google.com/specimen/Press+Start+2P#license">Google Fonts</a> The font I used was Press+Start+2P
+  
+- Google Images
