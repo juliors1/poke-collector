@@ -11,8 +11,8 @@
 
 ## Description:
 
-This is my PokeCollector web app. This app was designed to have you build your very own pokemon team. This app has a navigation  bar where you can navigate through the app. The navigation bar includes a pokedex page, where you can search for any pokemon you desire to add to your team. It also has an image of it's default and shiny version and includes a lot of information about the pokemon like its ID, type, abilites, and more..
-This app has a my profile page where you can update your avatar image, nickname, bio, and pokemon. In my profile page you have a friends tab where you can view the friends you have added. There is also a trainer list page where you can see every trainer who has joined the app. This page allows you to view their profile and pokemon team, where you can give them a rating of 1-5 and comment on their team. You will also have the option to add them as a friend. I decided to make this web app because of how much I enjoyed pokemon as a kid and creating this app was challenging but also fun. Enjoy!
+  This is my PokeCollector web app. This app was designed to have you build your very own Pokémon team. This app has a navigation bar where you can navigate through the app. The navigation bar includes a pokedex page, where you can search for any Pokémon you want to add to your team. It also has an image of it's default and shiny version and includes information about the Pokémon, such as: its ID, type,  abilities, and more...
+  This app has a “My Profile” page, where you can update your avatar image, nickname, bio, and Pokémon. In ”My Profile” page, you have a friends tab where you can view the friends you have added. There is also a trainer list page where you can see every trainer who has joined the app. This page allows you to view their profile and Pokémon team, where you can give them a rating of 1-5 and comment on their team. You will also have the option to add them as a friend. I decided to make this web app because of how much I enjoyed Pokémon as a kid, and creating this app was challenging but also fun. Enjoy!
 
 ## Getting Started:
 
@@ -22,7 +22,7 @@ This app has a my profile page where you can update your avatar image, nickname,
 
 ## Instructions:
 
-First login to your google account to have access to the web app. You can click on the pokedex nav and search any pokemon you desire on your team. If you want to add friends go to the trainer list and go check out any trainer profile. Now go on, have fun and Build Your Team!
+First login to your google account to have access to the web app. You can click on the pokedex nav and search any Pokémon you desire on your team. If you want to add friends go to the trainer list and go check out any trainer profile. Now go on, have fun and Build Your Team!
 
 
 ## Technologies Used:
