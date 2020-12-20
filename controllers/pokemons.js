@@ -30,7 +30,6 @@ function randomPokemon(req,res){
   const y = Math.floor(Math.random() * 152) + 1
     axios.get(`https://pokeapi.co/api/v2/pokemon/${y}`)
     .then((response)=>{
-      console.log(response.data)
       res.render('pokemon/pokedex',{
         pokemon: response.data,
         user: req.user

@@ -45,8 +45,8 @@ First login to your google account to have access to the web app. You can click 
 - [ ] Catch error when mispelling pokemon name
 - [x] Random pokemon Button
 - [x] Randomize Pokemon Button
-- [ ] Sound Effects
 - [ ] Cap pokemon team on 6
+- [ ] Sound Effects
 - [ ] Review Trainer's Pokemon
 
 
