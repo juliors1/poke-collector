@@ -23,6 +23,8 @@ function search(req,res){
       pokemon: response.data,
       user: req.user
     })
+  }).catch((err)=>{
+    res.redirect('/pokemon/pokedex')
   })
 }
 // Random pokemon call

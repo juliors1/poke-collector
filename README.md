@@ -44,8 +44,8 @@ First login to your google account to have access to the web app. You can click 
 - [x] Responsive Design
 - [x] Random pokemon Button
 - [x] Randomize Pokemon Button
-- [ ] Sound Effects
-- [ ] Catch error when mispelling pokemon name
+- [x] Sound Effects
+- [x] Catch error when mispelling pokemon name
 - [ ] Cap pokemon team on 6
 - [ ] Review Trainer's Pokemon
 
