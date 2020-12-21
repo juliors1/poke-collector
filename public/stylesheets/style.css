@@ -75,13 +75,37 @@ nav {
   right: 0px;
 }
 
-.poke-img{
+.poke-img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
-.poke-category {
+.poke-info {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.poke-category,
+.add-delete {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: row;
   justify-content: space-around;
+  font-size: 1.2rem;
+}
+.measurements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem 0 0 4rem;
+}
+.poke-stats {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.add-poke {
+  font-size: 1.5rem;
+  padding: 1rem;
 }

@@ -17,7 +17,7 @@
 </div>
 <div class="poke-info">
   <div class="add-delete">
-    <h3><%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)%></h3>
+    <h2><%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)%></h2>
     <h4>ID: <%= pokemon.id %></h4>
     <% if (user.team.some(p => {return p.id == pokemon.id})) { %>
     <form action="/pokemon/<%= pokemon.id %>/team?_method=DELETE" method="POST">
@@ -27,18 +27,18 @@
         <input type="text" hidden name="name" value="<%= pokemon.name %>">
         <input type="text" hidden name="id" value="<%= pokemon.id %>">
         <input type="text" hidden name="img" value="<%= pokemon.sprites.front_default %>">
-        <button class="btn btn-danger"><%= user.team.some(p => {return p.id === pokemon.id}) ? "Remove Pokemon" : "Add Pokemon" %></button>
+        <button class="btn btn-danger add-poke "><%= user.team.some(p => {return p.id === pokemon.id}) ? "Remove Pokemon" : "Add Pokemon" %></button>
       </form>
   </div>
   <div class='poke-category'>
     <div class='poke-type'>
-      <h5>Type: </h5><% pokemon.types.forEach(p => { %>
+      <h3>Type: </h3><% pokemon.types.forEach(p => { %>
       <ul> <%= p.type.name.charAt(0).toUpperCase() + p.type.name.slice(1) %> </ul>
       <% }) %>
     </div>
   <div class='poke-ability'>
-    <h5>Abilities: <% pokemon.abilities.forEach(p => { %>
-    </h5>
+    <h3>Abilities: <% pokemon.abilities.forEach(p => { %>
+    </h2>
     <ul>
       <%= p.ability.name.charAt(0).toUpperCase() + p.ability.name.slice(1) %>
     </ul>
@@ -46,8 +46,8 @@
   </div>
   </div>
   <div class='measurements'>
-  <p>Height: <%= pokemon.height / 10; %> m</p>
-  <p>Weight: <%= pokemon.weight / 10; %> kg</p>
+  <h3>Height: <%= pokemon.height / 10; %> m</h3>
+  <h3>Weight: <%= pokemon.weight / 10; %> kg</h3>
   </div>
   <div class="poke-stats">
   <h2>HP: </h2>
