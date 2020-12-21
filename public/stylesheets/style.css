@@ -74,6 +74,9 @@ nav {
   bottom: 0px;
   right: 0px;
 }
+.pik-gif-img{
+  height:150px;
+}
 
 .poke-img {
   display: flex;
@@ -108,4 +111,44 @@ nav {
 .add-poke {
   font-size: 1.5rem;
   padding: 1rem;
+}
+.user-list-page{
+  width:50rem;
+}
+
+@media screen and (max-width:800px) {
+  .pokedex-title,
+  .pokedex-img {
+    height: 75px;
+  }
+  .poke-search {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    font-size: 10px;
+    height: 50px;
+    padding: 5px;
+  }
+  .random-btn {
+    margin-right: 8px;
+    font-size: 15px;
+  }
+  .search-btn {
+    font-size: 10px;
+  }
+  .add-poke {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .user-list-page{
+  width:25rem;
+  }
+.pik-gif-img{
+  height:8rem;
+
+}
+#avatarPhoto{
+  height:150px;
+  width:150px;
+}
 }
