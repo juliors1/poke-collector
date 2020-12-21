@@ -16,7 +16,20 @@
       rel="stylesheet"
     />
     <link rel="icon" href="/images/favicon.ico" />
-    <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2008/12/17/cool-blue-outer-glow-pointer.html" target="_blank" title="Cool Blue Outer Glow Pointer"><img src="https://cur.cursors-4u.net/cursor.png" alt="Cool Blue Outer Glow Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
+    <style type="text/css">
+      * {
+        cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
+      }
+    </style>
+    <a
+      href="https://www.cursors-4u.com/cursor/2008/12/17/cool-blue-outer-glow-pointer.html"
+      target="_blank"
+      title="Cool Blue Outer Glow Pointer"
+      ><img
+        src="https://cur.cursors-4u.net/cursor.png"
+        alt="Cool Blue Outer Glow Pointer"
+        style="position: absolute; top: 0px; right: 0px"
+    /></a>
     <title>PokeCollector</title>
   </head>
   <body>
@@ -53,8 +66,8 @@
             <img
               id="avatarPhoto"
               height="50"
-              src="<%= user.avatar %>"
-              alt="user avatar"
+              src="<%= user.avatar ? user.avatar : 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/866438ce-c99f-4c83-8110-4f6c907f2c68/d9qxpn9-8096a0d6-6576-45cb-a1b0-1ae2fc3b787d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODY2NDM4Y2UtYzk5Zi00YzgzLTgxMTAtNGY2YzkwN2YyYzY4XC9kOXF4cG45LTgwOTZhMGQ2LTY1NzYtNDVjYi1hMWIwLTFhZTJmYzNiNzg3ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.gUe-9VpsADc708NZfNlDDffeL_G7LFrHtFp1QZa3IzI'%>"
+
             />
           </li>
           <% } else { %>
@@ -67,7 +80,11 @@
       </div>
     </nav>
     <div class="img-container">
-      <img class="login-title-logo"src="/images/login-title.png" alt="PokeCollector" />
+      <img
+        class="login-title-logo"
+        src="/images/login-title.png"
+        alt="PokeCollector"
+      />
     </div>
   </body>
 </html>
