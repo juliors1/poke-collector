@@ -49,3 +49,9 @@ nav {
   height: 100vh;
   padding: 0;
 }
+
+@media screen and (max-width:800px){
+  .login-title-logo{
+    height:110px;
+  }
+}
