@@ -1,5 +1,7 @@
 const Pokemon = require("../models/pokemon");
 const axios = require("axios");
+const pokemon = require("../models/pokemon");
+const user = require("../models/user");
 
 module.exports = {
   pokedex,
@@ -38,13 +40,13 @@ function randomPokemon(req,res){
       })
     })
   }
-// add a pokemon to your team
+// add a pokemon to your team and caps your team at 6
 function add(req,res) {
-req.user.team.push(req.body)
-req.user.save()
-.then(()=>{
+  if(req.user.team.length !== 6){
+    req.user.team.push(req.body)
+    req.user.save()
+  }
   res.redirect('/users/profile')
-})
 }
 // delete a pokemon from your team
 function deletePokemon(req,res){

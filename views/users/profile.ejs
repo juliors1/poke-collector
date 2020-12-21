@@ -58,6 +58,7 @@
               </form>
         </div>
       </div>
+
       <!-- This is the card for the 'friends' tab -->
       <div class="tab-pane fade" id="friends" role="tabpanel" aria-labelledby="friends-tab">
         <div class="card-body">
@@ -72,11 +73,15 @@
       <div class="tab-pane fade show" id="pokemonTeam" role="tabpanel" aria-labelledby="pokemon-tab">
         <div class="card-body">
         <!-- This is where we'll use a forEach to display pokemon team -->
-        <% user.team.forEach(p => { %>
+
+        <% if (user.team.length){ user.team.forEach(p => { %>
           <p><%= p.name.toUpperCase() %>
             <img src="<%= p.img %>" alt="sprite">
           </p>
           <% }) %>
+          <% }else { %>
+            <p>You have no pokemon added to your team</p>
+          <% }  %>
         </div>
       </div>
     </div>
@@ -84,5 +89,6 @@
 <div class=pika-gif>
   <img class="pik-gif-img "src="https://media.tenor.com/images/6e190eb7b580983ce09c7ccf0c91519d/tenor.gif" alt="">
 </div>
+
 
 <%- include('../partials/footer') %>

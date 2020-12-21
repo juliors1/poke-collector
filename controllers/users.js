@@ -1,4 +1,4 @@
-const pokemon = require("../models/pokemon");
+const Pokemon = require("../models/pokemon");
 const User = require("../models/user");
 
 module.exports = {
@@ -32,7 +32,7 @@ function update(req, res) {
 function show(req,res) {
   User.findById(req.params.id)
   .then((userInfo)=>{
-    pokemon.find({
+    Pokemon.find({
       team: userInfo.id
     })
     .then((pokemon)=>{
