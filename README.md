@@ -11,12 +11,10 @@
 ## Final App Images:
 
 ### Desktop/Mobile Login Screen
-<img src="https://i.imgur.com/lOmwb78.png" height=250px/>
-<img src="https://i.imgur.com/FBgtl4C.png" height=250px/>
+<img src="https://i.imgur.com/lOmwb78.png" height=250px/> | <img src="https://i.imgur.com/FBgtl4C.png" height=250px/>
 
 ### Desktop/Mobile Pokedex Screen
-<img src="https://i.imgur.com/JwxaIYm.png" alt="desktop-pokedex screen" height=250px/>
-<img src="https://i.imgur.com/177ImFV.png" alt="mobile-pokedex screen" height=250px/>
+<img src="https://i.imgur.com/JwxaIYm.png" alt="desktop-pokedex screen" height=250px/> | <img src="https://i.imgur.com/177ImFV.png" alt="mobile-pokedex screen" height=250px/>
 
 ## Trello
 
@@ -72,7 +70,7 @@ First login to your google account to have access to the web app. You can click 
 
 #### While the below disclaimers are technically required by their license-holders I would like to also sincerely thank all the creators whose work makes this site look great. I do not own or am associated with the resources used in any way, Thank you!
 
-- < href="https://pokeapi.co/docs/v2">PokeAPI</>  The API I used is called the PokeAPI.
+- <a href="https://pokeapi.co/docs/v2">PokeAPI</a> The API I used is called the PokeAPI.
 
 - <a href="https://fonts.google.com/specimen/Press+Start+2P#license">Google Fonts</a> The font I used was Press+Start+2P
 
