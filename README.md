@@ -1,5 +1,11 @@
 # PokeCollector
 
+## Getting Started:
+
+<a href="https://poke-collector-jrs.herokuapp.com/" target="_blank">PokeCollector</a> - This will prompt you to the deployed web app where you can go get started on building your team
+
+<a href="https://trello.com/b/8PmKGTfC/pokecollector">Trello</a> - This link will direct you to my planning in moving foward with my web app.
+
 ## Wireframe Images:
 
 ### Desktop/Mobile Login Screen:
@@ -29,11 +35,6 @@
   This is my PokeCollector web app. This app was designed to have you build your very own Pokémon team. This app has a navigation bar where you can navigate through the app. The navigation bar includes a pokedex page, where you can search for any Pokémon you want to add to your team. It also has an image of it's default and shiny version and includes information about the Pokémon, such as: its ID, type,  abilities, and more...
   This app has a “My Profile” page, where you can update your avatar image, nickname, bio, and Pokémon. In ”My Profile” page, you have a friends tab where you can view the friends you have added. There is also a trainer list page where you can see every trainer who has joined the app. This page allows you to view their profile and Pokémon team, where you can give them a rating of 1-5 and comment on their team. You will also have the option to add them as a friend. You have a limit of 6 pokemon per user. I decided to make this web app because of how much I enjoyed Pokémon as a kid, and creating this app was challenging but also fun. Enjoy!
 
-## Getting Started:
-
-<a href="https://poke-collector-jrs.herokuapp.com/" target="_blank">PokeCollector</a> - This will prompt you to the deployed web app where you can go get started on building your team
-
-<a href="https://trello.com/b/8PmKGTfC/pokecollector">Trello</a> - This link will direct you to my planning in moving foward with my web app.
 
 ## Instructions:
 
