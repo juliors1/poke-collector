@@ -52,6 +52,7 @@ First login to your google account to have access to the web app. You can click 
 - Mongoose
 - MongoDB
 - Heroku Deployment
+- PokeAPI 
 - EJS (Embedded Javascript)
 - Google OAuth 2.0
 
